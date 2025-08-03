@@ -6,8 +6,6 @@ Framework Features
 
 Technologies Used
 
-Project Structure
-
 Setup and Installation
 
 Running Tests
