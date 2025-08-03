@@ -69,7 +69,7 @@ cd [repository_folder_name]
 
 Import into your IDE:
 
-Open your IDE and import the project as a Maven or Gradle project. The IDE should automatically handle dependencies.
+Open your IDE and import the project as a Maven project. The IDE should automatically handle dependencies.
 
 # Running Tests
 Tests are executed via a Cucumber Runner class or through Maven commands.
