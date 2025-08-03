@@ -1,6 +1,6 @@
 # FLIGHT_BOOKING
-# Table of Contents
-About the Project
+#Table of Contents
+## About the Project
 
 Framework Features
 
@@ -12,8 +12,6 @@ Setup and Installation
 
 Running Tests
 
-Best Practices Summary
-
 Contributing
 
 Contact
@@ -23,13 +21,13 @@ This is a comprehensive and reusable automation framework designed for BDD. The 
 
 The framework is built around the following key principles from the guideline document:
 
-Modular and Reusable Code: Implementing the Page Object Model (POM) to keep locators and actions separate from test logic.
+->Modular and Reusable Code: Implementing the Page Object Model (POM) to keep locators and actions separate from test logic.
 
-Robust Synchronization: Using explicit waits to handle dynamic web elements effectively.
+->Robust Synchronization: Using explicit waits to handle dynamic web elements effectively.
 
-Comprehensive Reporting: Integrating logging and reporting tools to provide clear and detailed test results with screenshots on failure.
+->Comprehensive Reporting: Integrating logging and reporting tools to provide clear and detailed test results with screenshots on failure.
 
-Framework Features
+# Framework Features
 BDD with Gherkin: Test scenarios are written in plain language, making them easy to understand.
 
 Page Object Model (POM): A design pattern that improves code readability and maintainability by centralizing page-specific interactions.
@@ -40,7 +38,7 @@ Robust Wait Strategies: Implements explicit waits to avoid unreliable tests caus
 
 Extensible Reporting: Configured to generate detailed reports with screenshots for failed scenarios.
 
-Technologies Used
+# Technologies Used
 Java: The primary programming language.
 
 Maven: For project management and dependency handling.
@@ -55,25 +53,8 @@ log4j: For logging and tracking test execution.
 
 Reporting Libraries: (e.g., Cucumber HTML Reports, ExtentReports) To generate visual test reports.
 
-Project Structure
-The framework follows a clear and logical package segregation as outlined in the guideline document:
-
-├── src/
-│   ├── test/
-│   │   ├── java/
-│   │   │   └── com/automation/framework/
-│   │   │       ├── runners/        # Cucumber test runner classes
-│   │   │       ├── stepDefinitions/  # Step definition classes for feature steps
-│   │   │       ├── pages/          # Page Object Model (POM) classes
-│   │   │       └── utils/          # Utility classes (config handling, logging)
-│   │   └── resources/
-│   │       ├── features/         # Gherkin .feature files
-│   │       └── config.properties   # Centralized configuration file
-├── pom.xml                     # Maven Project Object Model file
-└── ... (other project-specific files)
-
-Setup and Installation
-Prerequisites:
+# Setup and Installation
+## Prerequisites:
 
 Java Development Kit (JDK) 8 or higher installed.
 
@@ -92,7 +73,7 @@ Import into your IDE:
 
 Open your IDE and import the project as a Maven or Gradle project. The IDE should automatically handle dependencies.
 
-Running Tests
+# Running Tests
 Tests are executed via a Cucumber Runner class or through Maven commands.
 
 From your IDE:
@@ -109,8 +90,8 @@ mvn clean test
 
 This command will run all feature files configured in your pom.xml or test runner.
 
-Contributing
+# Contributing
 Contributions are welcome! Please follow the guidelines in the provided documentation.
 
-Contact
+# Contact
 For any questions or inquiries about this project, please open an issue in the GitHub repository.
