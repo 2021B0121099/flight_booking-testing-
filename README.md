@@ -1,6 +1,6 @@
 # FLIGHT_BOOKING
-# Table of Contents
-## About the Project
+## Table of Contents
+### About the Project
 
 Framework Features
 
