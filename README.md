@@ -47,8 +47,6 @@ Cucumber: The BDD tool that links Gherkin feature files to Java step definitions
 
 JUnit: The underlying test framework.
 
-log4j: For logging and tracking test execution.
-
 Reporting Libraries: (e.g., Cucumber HTML Reports, ExtentReports) To generate visual test reports.
 
 # Setup and Installation
@@ -78,15 +76,6 @@ From your IDE:
 Locate the test runner class in the runners package (e.g., TestRunner.java).
 
 Right-click on the runner class and select Run As -> JUnit Test (or the equivalent for your IDE and configuration).
-
-From the Command Line (using Maven):
-Open your terminal and navigate to the project's root directory.
-
-Execute the following command:
-
-mvn clean test
-
-This command will run all feature files configured in your pom.xml or test runner.
 
 # Contributing
 Contributions are welcome! Please follow the guidelines in the provided documentation.
